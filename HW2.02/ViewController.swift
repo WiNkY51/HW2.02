@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         trafficLightGreenView.alpha = 0.2
         
         toggleTrafficLightsButton.setTitle("START", for: .normal)
+        toggleTrafficLightsButton.backgroundColor = .lightGray
+        toggleTrafficLightsButton.layer.cornerRadius = 10
     }
 
     @IBAction func toggleButtonDidTapt(_ sender: UIButton) {
