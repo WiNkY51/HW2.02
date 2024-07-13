@@ -27,11 +27,11 @@ class ViewController: UIViewController {
         trafficLightYellowView.alpha = 0.2
         trafficLightGreenView.alpha = 0.2
         
-        toggleTrafficLightsButton.setTitle("Включить светофор", for: .normal)
+        toggleTrafficLightsButton.setTitle("START", for: .normal)
     }
 
     @IBAction func toggleButtonDidTapt(_ sender: UIButton) {
-        sender.setTitle("Переключить светофор", for: .normal)
+        sender.setTitle("NEXT", for: .normal)
         
         switch enabledLight {
         case 1:
